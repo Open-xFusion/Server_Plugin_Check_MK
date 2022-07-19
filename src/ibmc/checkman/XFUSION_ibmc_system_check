@@ -1,0 +1,12 @@
+title: XFUSION IBMC Server
+agents: snmp
+license: GPL
+distribution: 
+description:
+ This check monitors the XFUSION IBMC Server Needs Attention flag by SNMP.
+
+inventory:
+ One service is created if a XFUSION IBMC Server System is detected.
+
+item:
+ System status
