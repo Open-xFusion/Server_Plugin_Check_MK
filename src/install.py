@@ -89,7 +89,7 @@ def check_version():
         sys.exit()
     version = str(version)
     current_version = re.search(r"(\d)\.(\d)\..*", version).group()
-    if current_version.startswith('1.6'):
+    if current_version.startswith('1.6') or current_version.startswith('2.0'):
         return True
     else:
         print("The current Check_MK version is", current_version)
